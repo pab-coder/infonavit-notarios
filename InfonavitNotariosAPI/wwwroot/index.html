@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Notarios Infonavit</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        .container {
+            max-width: 500px;
+        }
+
+        select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Descargar Notarios</h1>
+
+        <label>Municipio:</label>
+
+        <select id="municipios">
+            <option value="">Cargando...</option>
+        </select>
+
+        <button onclick="descargarExcel()">
+            Descargar Excel
+        </button>
+    </div>
+
+    <script>
+        async function cargarMunicipios() {
+
+            const response = await fetch('/api/notarios/municipios');
+
+            const municipios = await response.json();
+
+            const select = document.getElementById('municipios');
+
+            select.innerHTML = '';
+
+            municipios.forEach(m => {
+
+                const option = document.createElement('option');
+
+                option.value = m;
+                option.text = m;
+
+                select.appendChild(option);
+            });
+        }
+
+        function descargarExcel() {
+
+            const municipio =
+                document.getElementById('municipios').value;
+
+            window.location =
+                `/api/notarios/excel?municipio=${municipio}`;
+        }
+
+        cargarMunicipios();
+    </script>
+
+</body>
+</html>

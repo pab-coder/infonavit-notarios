@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="InfonavitNotarios/InfonavitNotarios.csproj" />
+  <Project Path="InfonavitNotariosAPI/InfonavitNotariosAPI.csproj" />
+</Solution>
