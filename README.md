@@ -54,18 +54,29 @@ La aplicación incluye una interfaz web básica para:
 
 ---
 
+## Investigación del problema
+
+Inicialmente el portal únicamente mostraba el número de notaría y el nombre del responsable dentro de un dropdown, dificultando la búsqueda manual de notarías cercanas.
+
+Se realizó exploración utilizando las herramientas de desarrollo del navegador (DevTools F12) para analizar cómo el sitio obtenía la información.
+
+Durante la investigación se detectaron requests que devolvían información en formato JSON, la cual fue utilizada para desarrollar este proyecto.
+
+Posteriormente se creó una aplicación en C# para:
+
+- procesar los datos
+- filtrar por localidad
+- generar reportes Excel automáticamente
+
+
 ## Capturas de pantalla
 
--Se hace la exploracion del sitio donde en esta primer imagen solo muestra el numero de notaria y nomnbre del responsable en
+-Se hace la exploracion del sitio donde solo muestra el numero de notaria y nomnbre del responsable en
  el DropDown de "Datos de la Notaria INEX".
 
 <img width="1360" height="720" alt="image" src="https://github.com/user-attachments/assets/b07f736b-af48-4a58-83bc-d01128cd43bb" />
 
--En trabajos anteriores utilizaba DropDowns que por medio de consultas de SQL se llena. 
--Procedo a investigar que llena el Dropdown de este sitio 
-- Utilizando DEVTOOLS F12 encontre que hay un llamado y devuelve listado en JSON de ese listado
-- Tome el formato JSON y lo utilice para crear este proyecto en consula con Visual Studio hacienndo filtros de busqueda que me permita 
-  filtrar por Localidad del estado y generar un archivo Excel con formato.
+- Se utliza (DEVTOOLS F12) para la toma de informacion del listado JSON
 
 <img width="1360" height="720" alt="image" src="https://github.com/user-attachments/assets/b442cfb0-566b-49a6-adf5-11b9b39511ef" />
 
@@ -82,6 +93,6 @@ https://localhost:7012/index.html
 
 ---
 
-## 📌 Objetivo del proyecto
+## Objetivo del proyecto
 
 Automatizar la búsqueda y generación de reportes de notarías de Infonavit para evitar consultas manuales repetitivas.
