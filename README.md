@@ -56,14 +56,17 @@ La aplicación incluye una interfaz web básica para:
 
 ## Capturas de pantalla
 
-Se hace la exploracion del sitio donde en esta primer imagen solo muestra el numero de notaria y nomnbre del responsable en
-el DropDown de "Datos de la Notaria INEX"
+-Se hace la exploracion del sitio donde en esta primer imagen solo muestra el numero de notaria y nomnbre del responsable en
+ el DropDown de "Datos de la Notaria INEX".
+
 <img width="1360" height="720" alt="image" src="https://github.com/user-attachments/assets/b07f736b-af48-4a58-83bc-d01128cd43bb" />
 
-En trabajos anteriores utilizaba DropDowns que por medio de consultas de SQL se llena, lo cual inventague en este sitio que 
-llemada ese DropDown, utilizando DEVTOOLS F12 encontre que hay un llamado y devuelve listado en JSON de ese listado tome el formato
-y que de primera instancia comence este proyecto en consola con Visual Studio haciando Filtros de busqueda y que me permita 
-filtrar por Localidad del estado y generar un archivo Excel con formato
+-En trabajos anteriores utilizaba DropDowns que por medio de consultas de SQL se llena. 
+-Procedo a investigar que llena el Dropdown de este sitio 
+- Utilizando DEVTOOLS F12 encontre que hay un llamado y devuelve listado en JSON de ese listado
+- Tome el formato JSON y lo utilice para crear este proyecto en consula con Visual Studio hacienndo filtros de busqueda que me permita 
+  filtrar por Localidad del estado y generar un archivo Excel con formato.
+
 <img width="1360" height="720" alt="image" src="https://github.com/user-attachments/assets/b442cfb0-566b-49a6-adf5-11b9b39511ef" />
 
 ---
