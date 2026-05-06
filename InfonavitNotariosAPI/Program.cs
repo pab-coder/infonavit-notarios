@@ -10,11 +10,12 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 //  Swagger (solo en desarrollo)
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
+// se deja para que swagger entre en produccion en Render
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseDefaultFiles();
 
