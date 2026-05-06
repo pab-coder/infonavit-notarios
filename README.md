@@ -4,7 +4,7 @@
 
 Proyecto desarrollado en C# y ASP.NET Core para procesar información de notarías de Infonavit, filtrar por municipio y generar reportes dinámicos en Excel.
 
-## Características
+## 🚀 Características
 
 - Procesamiento de JSON obtenido desde herramientas de desarrollo del navegador
 - API REST con ASP.NET Core
@@ -15,7 +15,7 @@ Proyecto desarrollado en C# y ASP.NET Core para procesar información de notarí
 
 ---
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - C#
 - ASP.NET Core
@@ -26,27 +26,35 @@ Proyecto desarrollado en C# y ASP.NET Core para procesar información de notarí
 
 ---
 
-## Endpoints
+## 📊 Endpoints
 
 ### Obtener notarías
 
+```http
 GET /api/notarios
+```
 
 ### Filtrar por municipio
 
+```http
 GET /api/notarios?municipio=Guadalajara
+```
 
 ### Obtener municipios
 
+```http
 GET /api/notarios/municipios
+```
 
 ### Descargar Excel
 
+```http
 GET /api/notarios/excel?municipio=Guadalajara
+```
 
 ---
 
-## Frontend
+## 💻 Frontend
 
 La aplicación incluye una interfaz web básica para:
 
@@ -56,7 +64,7 @@ La aplicación incluye una interfaz web básica para:
 
 ---
 
-## Investigación del problema
+## 🔍 Investigación del problema
 
 Inicialmente el portal únicamente mostraba el número de notaría y el nombre del responsable dentro de un dropdown, dificultando la búsqueda manual de notarías cercanas.
 
@@ -71,7 +79,7 @@ Posteriormente se creó una aplicación en C# para:
 - generar reportes Excel automáticamente
 
 
-## Capturas de pantalla
+## 📷 Capturas de pantalla
 
 -Se hace la exploracion del sitio donde solo muestra el numero de notaria y nomnbre del responsable en
  el DropDown de "Datos de la Notaria INEX".
@@ -84,7 +92,7 @@ Posteriormente se creó una aplicación en C# para:
 
 ---
 
-## Cómo ejecutar
+## ⚙️ Cómo ejecutar
 
 1. Clonar repositorio
 2. Abrir solución en Visual Studio
@@ -95,6 +103,6 @@ https://localhost:7012/index.html
 
 ---
 
-## Objetivo del proyecto
+## 📌 Objetivo del proyecto
 
 Automatizar la búsqueda y generación de reportes de notarías de Infonavit para evitar consultas manuales repetitivas.
