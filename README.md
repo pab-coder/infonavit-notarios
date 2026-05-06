@@ -107,6 +107,25 @@ https://localhost:7012/index.html
 
 ---
 
+## Uso de API REST 
+
+### Frontend con dropdown de municipio y botón de descarga en archivo Excel
+
+<img width="1360" height="720" alt="image" src="https://github.com/user-attachments/assets/ddf8b7f0-6474-4518-aab1-9ae62f9e7737" />
+
+### Archivo de Excel con formato de tabla y filtros en las columnas
+
+<img width="1374" height="728" alt="image" src="https://github.com/user-attachments/assets/197106ee-56a3-4557-8116-dfdf6fa56199" />
+
+---
+
 ## 📌 Objetivo del proyecto
 
 Automatizar la búsqueda y generación de reportes de notarías de Infonavit para evitar consultas manuales repetitivas.
+
+---
+
+
+
+
+
