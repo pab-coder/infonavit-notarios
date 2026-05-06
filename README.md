@@ -81,16 +81,16 @@ Posteriormente se creó una aplicación en C# para:
 
 ## 📷 Capturas de pantalla
 
-### Exploracion del sitio
+### Exploración del sitio
 
-Se hace la exploración del sitio donde solo muestra el número de notaria y nombre del responsable en
+Se hace la exploración del sitio donde solo muestra el número de notaría y nombre del responsable en
  el DropDown de "Datos de la Notaria INEX".
 
 <img width="1360" height="720" alt="image" src="https://github.com/user-attachments/assets/b07f736b-af48-4a58-83bc-d01128cd43bb" />
 
 ### Exploración con DEVTOOLS
 
-Se utliza (DEVTOOLS F12) para la toma de informacion del listado JSON
+Se utliza (DEVTOOLS F12) para la toma de información del listado JSON
 
 <img width="1360" height="720" alt="image" src="https://github.com/user-attachments/assets/b442cfb0-566b-49a6-adf5-11b9b39511ef" />
 
