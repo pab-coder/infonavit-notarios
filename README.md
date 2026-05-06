@@ -103,7 +103,7 @@ Se utliza (DEVTOOLS F12) para la toma de información del listado JSON
 3. Ejecutar proyecto ASP.NET Core
 4. Abrir:
 
-https://localhost:7012/index.html
+https://infonavit-notarios.onrender.com
 
 ---
 
